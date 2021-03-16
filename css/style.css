@@ -95,7 +95,7 @@ footer
 }
 @media only screen and (max-width: 800px)
 {
-    .tart2{width:55%;}
+
     .oldal{width: 10%;}
     img#rocket{width: 100px;}
     img{width: 50px;}
@@ -103,7 +103,7 @@ footer
 }
 @media only screen and (max-width: 550px)
 { div.header{ height: 190px;}
-.tart2{width:50%;}
+
 img#rocket{width: 80px;}
     img{width: 40px;}
     .navbar li{background-color: rgba(13, 213, 248, 0.924);
