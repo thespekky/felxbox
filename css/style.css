@@ -22,11 +22,13 @@ div.header
 }
 .navbar li
 {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(13, 213, 248, 0.924);
     float: left;
     list-style-type: none;
     padding: 8px;
-  margin-left: 5px;
+  margin-left: 8px;
   box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
   text-shadow: 2px 5px 10px red;
 
@@ -37,8 +39,11 @@ div.header
     color: black;
 }
 .tart2{
-    width: 75%;
+    width: 100%;
     float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     
 }
 .tart2 ul li{
@@ -57,7 +62,8 @@ img:hover
 
 .oldal
 {
-    width: 15%;
+    align-self: flex-end;
+    width: 10%;
     padding-left: 30px;
     float: left;
     letter-spacing: 1px;
@@ -93,6 +99,7 @@ footer
     .oldal{width: 10%;}
     img#rocket{width: 100px;}
     img{width: 50px;}
+    .oldal{float: none;align-self: flex-start;margin: 0;padding: 0;}
 }
 @media only screen and (max-width: 550px)
 { div.header{ height: 190px;}
@@ -109,9 +116,12 @@ img#rocket{width: 80px;}
 #hitbox
 {
     display: flex;
-    width: 800px;
-    height: 200px;
     align-items:flex-start;
     flex-direction: column;
     justify-content: space-between;
+}
+#jatekeredete
+{
+    float: left;
+    width: 70%;
 }
