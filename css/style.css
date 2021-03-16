@@ -1,0 +1,117 @@
+body
+{
+   background-color:rgb(255, 238, 0);
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding: 20px;
+}
+h2
+{ 
+    background-color: rgba(0, 0, 0, 0.212);
+    color:black;
+    text-shadow: 7px 3px 5px silver;
+}
+div.header
+{
+    background-color: rgba(192, 68, 10, 0.5) ;
+    padding-top: 15px;
+    height: 160px;
+    color: black;
+    outline-style:double;
+    outline-color: black;
+}
+.navbar li
+{
+    background-color: rgba(13, 213, 248, 0.924);
+    float: left;
+    list-style-type: none;
+    padding: 8px;
+  margin-left: 5px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
+  text-shadow: 2px 5px 10px red;
+
+}
+.navbar li:hover
+{
+    background-color: white;
+    color: black;
+}
+.tart2{
+    width: 75%;
+    float: left;
+    
+}
+.tart2 ul li{
+   float: left;
+   padding-right: 26px;
+    
+}
+img
+{
+    opacity: 0.8;
+}
+img:hover
+{
+    opacity: 1;
+} 
+
+.oldal
+{
+    width: 15%;
+    padding-left: 30px;
+    float: left;
+    letter-spacing: 1px;
+    text-shadow: 0px 2px 3px rgb(79, 156, 140);
+}
+ul
+{
+    list-style-type: none;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+footer
+{
+    width: 132%;
+    text-align: left;
+    height: 45px;
+    display: block;
+    border-radius:10cm;
+    padding: 7px;
+    padding-right: 10px;
+    margin-top: 70px;
+    background-color: blue;
+    color: white;
+    
+}
+@media only screen and (max-width: 800px)
+{
+    .tart2{width:55%;}
+    .oldal{width: 10%;}
+    img#rocket{width: 100px;}
+    img{width: 50px;}
+}
+@media only screen and (max-width: 550px)
+{ div.header{ height: 190px;}
+.tart2{width:50%;}
+img#rocket{width: 80px;}
+    img{width: 40px;}
+    .navbar li{background-color: rgba(13, 213, 248, 0.924);
+        float: left;
+        list-style-type: none;
+      margin-top: 5px;
+      box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
+      text-shadow: 2px 5px 10px red;}
+}
+#hitbox
+{
+    display: flex;
+    width: 800px;
+    height: 200px;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
